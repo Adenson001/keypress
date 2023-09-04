@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(235, 234, 234);
+  font-family: "Lato";
+  color: #000;
+}
+
+.container {
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}
+
+.press {
+  padding: 20px;
+  border-radius: 0;
+  border: 1px solid #404141;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 600;
+   font-family: 'Lato';
+}
+
+.keypress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.single {
+  display: flex;
+  flex-direction: column;
+
+}
+label{
+  font-size: 16px;
+  font-family: 'Lato';
+  text-align: center;
+  color: rgb(77, 76, 76);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 20px 5px;
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-family: 'Lato';
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
